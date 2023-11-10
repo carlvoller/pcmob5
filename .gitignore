@@ -1,0 +1,13 @@
+.cache
+.pythonlibs
+.upm
+bin
+include
+instance
+lib
+.breakpoints
+.replit
+pyproject.toml
+pyvenv.cfg
+db.sqlite
+replit*
