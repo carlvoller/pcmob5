@@ -150,7 +150,7 @@ def login():
   if user and password == user.password:
     return jsonify({ 'message': 'Successfully logged in!', 'access_token': create_access_token(identity=user) })
   else:
-    return jsonify({ 'message': 'Username or Password is incorrect.' })
+    return jsonify({ 'message': 'Username or Password is incorrect.' }), 400
 
 
   
